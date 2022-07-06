@@ -75,7 +75,7 @@ header {
     color: #042A5A;
     width:100%;
   
-  
+    font-family: Open Sans;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -122,7 +122,7 @@ header {
     margin-top: 27px;
 }
 .div-text-below-image{
-    width: 28%;
+    width: 76%;
   
 }
 
