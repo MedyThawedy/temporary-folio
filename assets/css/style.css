@@ -1,0 +1,15 @@
+@font-face {
+    font-family: athenee;
+    src: url(../fonts/Athene.otf);
+}
+
+@font-face {
+    font-family: befonts;
+    src: url(../fonts/Befonts.com.url);
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
