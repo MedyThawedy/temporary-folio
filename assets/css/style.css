@@ -9,7 +9,519 @@
 }
 
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+header {
+    background: #EFE8D7;
+    /*position: absolute;*/
+    width: 100%;
+    height: 1070px;
+ 
+
+}
+/* Top of the web page */
+.div-header-to-flex {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 100%;
+  
+    border-bottom: 1px solid #042A5A;
+}
+
+/* The top left of the page */
+.div-header-left {
+    height: 25px;
+    width: 50%;
+    text-align: left;
+    padding-left: 20%;
+  
+
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+
+    color: #042A5A;
+
+}
+
+/* The top right of the page */
+.div-header-right {
+    height: 25px;
+    width: 50%;
+    text-align: right;
+    padding-right: 20%;
+  
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    color: #042A5A;
+}
+
+/*     Big centered header + two parts + top and bottom */
+.div-title-h2{
+    font-family: athenee;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 20vh; /* 228px; */
+  
+    color: #042A5A;
+    width:100%;
+  
+  
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.div-top-header-h2{
+  
+    border-bottom: 1px solid #042A5A;
+    width: 40rem;
+    text-align: center;
+    height: 18vh;
+}
+
+.div-bottom-header-h2{
+  
+    border-bottom: 1px solid #042A5A;
+    width: 40rem;
+    text-align: center;
+    height: 18vh;
+}
+
+/* The line of the bottom header h2 */
+.div-bottom-header-h2 span{
+    font-family: math;
+    font-weight: lighter;
+   
+}
+
+.div-container{
+  
+    height:40vh;
+  width: 100%;
+}
+
+.div-image-container{
+  
+    width: 296px;
+    height: 575px;
+    background-image: url(../img/blue.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; 
+    margin-top: 27px;
+}
+.div-text-below-image{
+    width: 28%;
+  
+}
+
+.div-text-below-image p{
+    font-size: 18px;
+   
+        line-height: 5vh;
+  
+}
+
+.article-1{
+    height:1200px;
+    background:#F4C4C4;
+
+}
+
+.div-nr-1{
+    margin-top: 41px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.div-title-article-1 {
+    height: 200px;
+    width: 231px;
+    position:absolute;
+    margin-top: 100px;
+}
+
+.div-title-article-1 h2{
+    font-size: 30px;
+    font-family: athenee;
+    font-size: 70px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.div-paragraph-article-1 {
+    height: 235px;
+    width: 320px;
+  
+    /*border: 1px solid #fff;*/
+   
+    margin-top: 300px;
+    margin-left: 73%;
+    font-family: Open Sans;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    /* Place this p on the right side*/
+    overflow:auto;
+    float:right;
+}
+
+.div-2-paragraph-article-1 {
+    height: 335px;
+    width: 364px;
+   /* border: 1px solid #fff;*/
+    margin-top: 10px;
+    margin-left: 73%;
+    font-family: Open Sans;
+    font-size: 14px;
+    /* Place this p on the right side*/
+    overflow:auto;
+    float:right;
+}
+
+.div-2-paragraph-article-1 > p{
+    text-align:right;
+    margin-right: 10px;
+    border-bottom: 1px solid #282B29;
+    font-family: Open Sans;
+    padding-bottom: 2px;
+}
+
+/*https://stackoverflow.com/questions/19089933/how-to-position-two-elements-side-by-side-using-css*/
+.div-2-item-1{
+    display:flex;
+    border-bottom: 1px solid #282B29;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    font-family: Open Sans;
+}
+
+
+.div-2-item-1 p{
+    text-align:left;
+    flex:1;
+    padding-top: 25px;
+  
+}
+
+.div-2-item-1 ul {
+    float:right;
+    text-align: right;
+    list-style: none;
+    padding-right: 5px;
+    font-family: Open Sans;
+}
+
+.div-2-item-2{
+    display:flex;
+    border-bottom: 1px solid  #282B29;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    font-family: Open Sans;
+}
+
+
+.div-2-item-2 p{
+    text-align:left;
+    flex:1;
+    padding-top: 25px;
+  
+}
+
+.div-2-item-2 ul {
+    float:right;
+    text-align: right;
+    list-style: none;
+    padding-right: 5px;
+    font-family: Open Sans;
+}
+
+.div-2-item-3{
+    display:flex;
+    border-bottom: 1px solid #282B29;
+   padding-top: 20px;
+    padding-bottom: 18px;
+    font-family: Open Sans;
+}
+
+
+.div-2-item-3 p{
+    text-align:left;
+    flex:1;
+    padding-top: 17px;
+  
+}
+
+.div-2-item-3 ul {
+    float:right;
+    text-align: right;
+    list-style: none;
+    padding-right: 5px;
+    font-family: Open Sans;
+}
+
+
+.div-bottom-article-1 {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.div-stamp{
+  margin-top: 80px;
+ margin-left:auto;
+    width:110px;
+}
+
+.div-content {
+    margin-right:100px;
+}
+
+.article-2{
+    height:2100px;
+    background:#DEB873;
+}
+
+.div-nr-2{
+    margin-top: 41px;
+    position: absolute;
+   right: 50px;
+}
+
+
+.div-title-article-2 {
+    height: 200px;
+    width: 231px;
+    position:absolute;
+    margin-top: 100px;
+    right: 0;
+    text-align: right;
+}
+
+.div-title-article-2 h2{
+    font-family: athenee;
+    font-size: 70px;
+    font-weight: 500;
+    text-transform: uppercase;
+  color: #7D2222;
+
+}
+
+.div-paragraph-article-2 {
+    height: 335px;
+    width: 364px;
+    /* border: 1px solid #fff; */
+    font-family: athenee;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 320px;
+    left: 50px;
+    color: #7D2222;
+
+}
+
+.div-rodrigo-marconnato {
+    position: absolute;
+    margin-top: 550px;
+    left: 50px;
+    color: #7D2222;
+  
+    font-family: athenee;
+}
+
+.div-rodrigo-marconnato h2{
+  
+  font-size:60px;
+    font-family: athenee;
+}
+
+.div-image-rodrigo-marconnato {
+    width: 500px;
+    height: 302px;
+    background-image: url(../img/bg-marconatto-1.jpg);
+    position:absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 500px;
+    margin-left: 540px;
+}
+
+.div-kaethe-kollwitz{
+    margin-top:900px;
+    position:absolute;
+    right:100px;
+
+}
+
+.div-kaethe-kollwitz h2{
+    font-family: athenee;
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+  color: #7D2222;
+}
+
+.div-image-kaethe-kollwitz{
+    width: 480px;
+    height: 250px;
+    background-image: url(../img/kathe_cover-1.jpg);
+    position:absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    right: 420px;
+}
+
+.div-title-victor-folio {
+    position: absolute;
+    margin-top: 1250px;
+    left: 50px;
+    color: #7D2222;
+  
+    font-family: athenee;
+}
+
+.div-title-victor-folio h2{
+    font-family: athenee;
+    font-size: 60px;
+    font-weight: 500;
+   
+  color: #7D2222;
+}
+
+.div-image-victor-folio{
+    width: 490px;
+    height: 302px;
+    background-image: url(../img/bg-nicole-1.jpg);
+    position:absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 1250px;
+    margin-left: 540px;
+}
+
+
+.div-bottom-article-2{
+    margin-top:1670px;
+    position:absolute;
+    right:100px;
+
+}
+
+.div-bottom-article-2 h2{
+    font-family: athenee;
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+  color: #7D2222;
+}
+
+.div-image-bottom-article-2{
+    width: 480px;
+    height: 250px;
+    background-image: url(../img/boa_cover-1.jpg);
+    position:absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    right: 420px;
+}
+
+.article-3 {
+    height:600px;
+    background: #D2D2D2;
+}
+
+.div-nr-3{
+    margin-top: 41px;
+    position: absolute;
+    margin-left: 50px;
+    color:#388883;
+}
+
+
+.div-title-article-3{
+    color:#388883;
+    height: 200px;
+    width: 231px;
+    position:absolute;
+    margin-top: 100px;
+}
+
+.div-title-article-3 h2{
+
+    font-size: 30px;
+    font-family: athenee;
+    font-size: 70px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.div-paragraph-article-3 {
+    height: 235px;
+    
+  
+    /*border: 1px solid #fff;*/
+   
+
+    font-family: Open Sans;
+    font-size: 12px;
+    width:100%;
+    font-family: athenee;
+ 
+    font-weight: 500;
+   
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+   
+}
+
+.div-paragraph-article-3 p{
+    font-family: Open Sans;
+
+    color:#388883;
+  width: 25%;
+  padding-top: 300px;
+
+
+}
+
+.div-bottom-article-3{
+    width: 100px;
+    margin-left: auto;
+    /* position: absolute; */
+    margin-top: 27vh;
+}
+
+
+.div-bottom-article-3 ul{
+    list-style: none;
+    color:#388883;
+    font-family: Open Sans;
+    line-height: 25px;
+    padding-right: 35px;
+}
+
+.div-bottom-article-3 ul li{
+    font-family: Open Sans;
+    text-align: right;
 }
